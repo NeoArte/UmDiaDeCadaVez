@@ -1,0 +1,1453 @@
+﻿--- Wed Oct  4 14:16:04 2023
+
+--- Wed Oct  4 14:17:14 2023
+
+(Ele parece triste...)
+
+Ratinho
+*Squeak*
+
+Diego
+{color=#008B8B}Obrigado, amiguinho{/color}
+
+--- Wed Oct  4 14:18:27 2023
+
+(Ele parece triste...)
+
+Ratinho
+*Squeak*
+
+Diego
+{color=#008B8B}Obrigado, amiguinho{/color}
+
+--- Wed Oct  4 14:19:12 2023
+
+(Ele parece triste...)
+
+Ratinho
+*Squeak*
+
+Diego
+{color=#008B8B}Obrigado, amiguinho{/color}
+
+DEBUG
+1
+
+DEBUG
+2
+
+DEBUG
+3
+
+--- Wed Oct  4 14:20:20 2023
+
+(Ele parece triste...)
+
+Ratinho
+*Squeak*
+
+Diego
+{color=#008B8B}Obrigado, amiguinho{/color}
+
+DEBUG
+1
+
+DEBUG
+2
+
+DEBUG
+3
+
+--- Wed Oct  4 14:22:15 2023
+
+--- Wed Oct  4 14:22:43 2023
+
+(Ele parece triste...)
+
+Ratinho
+*Squeak*
+
+Diego
+{color=#008B8B}Obrigado, amiguinho{/color}
+
+DEBUG
+1
+
+DEBUG
+1
+
+DEBUG
+2
+
+DEBUG
+3
+
+--- Wed Oct  4 14:24:17 2023
+
+(Ele parece triste...)
+
+Ratinho
+*Squeak*
+
+Diego
+{color=#008B8B}Obrigado, amiguinho{/color}
+
+DEBUG
+1
+
+DEBUG
+2
+
+DEBUG
+3
+
+--- Wed Oct  4 14:25:18 2023
+
+DEBUG
+1
+
+DEBUG
+2
+
+DEBUG
+3
+
+{json.dumps(parsed_object.__dict__)}
+--- Wed Oct  4 14:26:00 2023
+
+(Ele parece triste...)
+
+Ratinho
+*Squeak*
+
+Diego
+{color=#008B8B}Obrigado, amiguinho{/color}
+
+DEBUG
+1
+
+DEBUG
+2
+
+DEBUG
+3
+
+{}
+--- Wed Oct  4 14:26:47 2023
+
+(Ele parece triste...)
+
+Ratinho
+*Squeak*
+
+Diego
+{color=#008B8B}Obrigado, amiguinho{/color}
+
+DEBUG
+1
+
+DEBUG
+2
+
+DEBUG
+3
+
+[<SubParse game/script.rpy:13>]
+--- Wed Oct  4 14:27:04 2023
+
+--- Wed Oct  4 14:29:51 2023
+
+(Ele parece triste...)
+
+Ratinho
+*Squeak*
+
+Diego
+{color=#008B8B}Obrigado, amiguinho{/color}
+
+DEBUG
+1
+
+DEBUG
+2
+
+DEBUG
+3
+
+--- Wed Oct  4 14:30:42 2023
+
+(Ele parece triste...)
+
+Ratinho
+*Squeak*
+
+Diego
+{color=#008B8B}Obrigado, amiguinho{/color}
+
+DEBUG
+1
+
+DEBUG
+2
+
+DEBUG
+3
+
+1
+<bound method SubParse.__repr__ of <SubParse game/script.rpy:13>>
+--- Wed Oct  4 14:53:00 2023
+
+(Ele parece triste...)
+
+Ratinho
+*Squeak*
+
+Diego
+{color=#008B8B}Obrigado, amiguinho{/color}
+
+DEBUG
+1
+
+DEBUG
+2
+
+DEBUG
+3
+
+1
+<bound method SubParse.__repr__ of <SubParse game/script.rpy:13>>
+(Dia 1)
+
+Choice: Escolha Boa
+Choice: Escolha Média
+Choice: Escolha Ruim
+
+--- Thu Oct  5 17:39:45 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+Diego
+{color=#008B8B}Bem, está feito, papelada resolvida…{/color}
+
+Diego
+{color=#008B8B}pelo menos não vai ter pensão.{/color}
+
+--- Thu Oct  5 17:40:23 2023
+
+--- Thu Oct  5 17:42:23 2023
+
+--- Thu Oct  5 17:42:41 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+Diego
+{color=#555555}Bem, está feito, papelada resolvida…{/color}
+
+Diego
+{color=#555555}pelo menos não vai ter pensão.{/color}
+
+--- Thu Oct  5 17:43:03 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+Diego
+{color=#555555}Bem, está feito, papelada resolvida…{/color}
+
+Diego
+{color=#555555}pelo menos não vai ter pensão.{/color}
+
+--- Thu Oct  5 17:43:17 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+Diego
+{color=#555555}Bem, está feito, papelada resolvida…{/color}
+
+Diego
+{color=#555555}pelo menos não vai ter pensão.{/color}
+
+--- Thu Oct  5 17:43:36 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+Diego
+{color=#555555}Bem, está feito, papelada resolvida…{/color}
+
+Diego
+{color=#555555}pelo menos não vai ter pensão.{/color}
+
+--- Thu Oct  5 17:43:57 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+Diego
+{color=#555555}Bem, está feito, papelada resolvida…{/color}
+
+Diego
+{color=#555555}pelo menos não vai ter pensão.{/color}
+
+--- Thu Oct  5 17:44:44 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+Diego
+{color=#555555}Bem, está feito, papelada resolvida…{/color}
+
+Diego
+{color=#555555}pelo menos não vai ter pensão.{/color}
+
+--- Thu Oct  5 17:45:05 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+Diego
+{color=#555555}Bem, está feito, papelada resolvida…{/color}
+
+Diego
+{color=#555555}pelo menos não vai ter pensão.{/color}
+
+--- Thu Oct  5 17:48:20 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+Diego
+{color=#555555}Bem, está feito, papelada resolvida…{/color}
+
+Diego
+{color=#555555}pelo menos não vai ter pensão.{/color}
+
+--- Thu Oct  5 17:48:36 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+Diego
+{color=#555555}Bem, está feito, papelada resolvida…{/color}
+
+Diego
+{color=#555555}pelo menos não vai ter pensão.{/color}
+
+--- Thu Oct  5 17:48:56 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+--- Thu Oct  5 17:54:25 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+--- Thu Oct  5 17:54:35 2023
+
+--- Thu Oct  5 17:54:48 2023
+
+--- Thu Oct  5 17:54:52 2023
+
+Diego
+{color=#000000}Bem, está feito, papelada resolvida…{/color}
+
+Diego
+{color=#000000}pelo menos não vai ter pensão.{/color}
+
+--- Thu Oct  5 17:54:59 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+Diego
+{color=#666666}Bem, está feito, papelada resolvida…{/color}
+
+Diego
+{color=#666666}pelo menos não vai ter pensão.{/color}
+
+--- Thu Oct  5 17:55:03 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+Diego
+{color=#666666}Bem, está feito, papelada resolvida…{/color}
+
+Diego
+{color=#666666}pelo menos não vai ter pensão.{/color}
+
+--- Thu Oct  5 17:55:06 2023
+
+--- Thu Oct  5 17:55:24 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+--- Thu Oct  5 17:55:42 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+--- Thu Oct  5 17:56:08 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+Diego
+{color=#222222}Bem, está feito, papelada resolvida…{/color}
+
+Diego
+{color=#222222}pelo menos não vai ter pensão.{/color}
+
+--- Thu Oct  5 17:56:15 2023
+
+--- Thu Oct  5 17:56:39 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+--- Thu Oct  5 17:56:55 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+--- Thu Oct  5 17:58:09 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+{color=#999999}Diego{/color}
+{color=#999999}Bem, está feito, papelada resolvida…{/color}
+
+{color=#999999}Diego{/color}
+{color=#999999}pelo menos não vai ter pensão.{/color}
+
+--- Thu Oct  5 17:58:17 2023
+
+--- Thu Oct  5 18:26:10 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+{color=#999999}Diego{/color}
+{color=#999999}Bem, está feito, papelada resolvida…{/color}
+
+{color=#999999}Diego{/color}
+{color=#999999}Pelo menos não vai ter pensão.{/color}
+
+Choice: Chamar o dono
+Choice: Ficar quieto
+Choice: Tentar sair
+
+Player chose: Chamar o dono
+
+Ratinho
+*Squeak*
+
+{color=#999999}Diego{/color}
+{color=#999999}Ah, oi pequeno!{/color}
+
+{color=#999999}Diego{/color}
+{color=#999999}Sim, você vai ficar comigo... pelo menos...{/color}
+
+Choice: Cheirar dono
+Choice: Se esconder
+Choice: Fazer barulhos
+
+Player chose: Cheirar dono
+
+{color=#999999}Diego{/color}
+{color=#999999}Ah, tá sentindo o cheiro dela né...{/color}
+
+{color=#999999}Diego{/color}
+{color=#999999}É, ela não vai voltar{/color}
+
+Choice: Cheirar dono
+Choice: Se esconder
+Choice: Fazer barulhos
+
+Ratinho
+*Squeak*
+
+{color=#999999}Diego{/color}
+{color=#999999}Ah, oi pequeno!{/color}
+
+{color=#999999}Diego{/color}
+{color=#999999}Sim, você vai ficar comigo... pelo menos...{/color}
+
+Choice: Cheirar dono
+Choice: Se esconder
+Choice: Fazer barulhos
+
+Player chose: Fazer barulhos
+
+{color=#999999}Diego{/color}
+{color=#999999}O que foi pequeno?{/color}
+
+{color=#999999}Diego{/color}
+{color=#999999}Hehe{/color}
+
+{color=#999999}Diego{/color}
+{color=#999999}Você ta me lembrando como você era com...{/color}
+
+{color=#999999}Diego{/color}
+{color=#999999}Hm...{/color}
+
+--- Thu Oct  5 18:32:26 2023
+
+--- Thu Oct  5 18:33:45 2023
+
+{color=#999999}Diego{/color}
+{color=#999999}O que foi pequeno?{/color}
+
+--- Sun Oct  8 03:52:24 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+--- Sun Oct  8 03:53:09 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+--- Sun Oct  8 03:59:48 2023
+
+--- Sun Oct  8 04:00:21 2023
+
+--- Sun Oct  8 15:07:25 2023
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+{color=#999999}Diego{/color}
+{color=#999999}Bem, está feito, papelada resolvida…{/color}
+
+{color=#999999}Diego{/color}
+{color=#999999}Pelo menos não vai ter pensão.{/color}
+
+Choice: Chamar o dono
+Choice: Ficar quieto
+Choice: Tentar sair
+
+(Hm...)
+
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+--- Mon Oct  9 00:13:06 2023
+
+(O humano está de volta!)
+
+--- Mon Oct  9 00:14:55 2023
+
+Dia 0 - 0
+
+(O humano está de volta!)
+
+(Mas a outra pessoa não está com ele de novo)
+
+(Hm...)
+
+--- Mon Oct  9 00:15:59 2023
+
+Dia 0 - 0
+
+Ratinho
+(O humano está de volta!)
+
+Ratinho
+(Mas a outra pessoa não está com ele de novo)
+
+Ratinho
+(Hm...)
+
+Ratinho
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+{color=#999999}Diego{/color}
+{color=#999999}Bem, está feito, papelada resolvida…{/color}
+
+{color=#999999}Diego{/color}
+{color=#999999}Pelo menos não vai ter pensão.{/color}
+
+Choice: Chamar o dono
+Choice: Ficar quieto
+Choice: Tentar sair
+
+Player chose: Chamar o dono
+
+Ratinho
+*Squeak*
+
+{color=#999999}Diego{/color}
+{color=#999999}Ah, oi pequeno!{/color}
+
+{color=#999999}Diego{/color}
+{color=#999999}Sim, você vai ficar comigo... pelo menos...{/color}
+
+Choice: Cheirar dono
+Choice: Se esconder
+Choice: Fazer barulhos
+
+Player chose: Fazer barulhos
+
+{color=#999999}Diego{/color}
+{color=#999999}O que foi pequeno?{/color}
+
+{color=#999999}Diego{/color}
+{color=#999999}Hehe{/color}
+
+{color=#999999}Diego{/color}
+{color=#999999}Você ta me lembrando como você era com...{/color}
+
+{color=#999999}Diego{/color}
+{color=#999999}Hm...{/color}
+
+Ratinho
+(Espero que ele fique melhor amanhã...)
+
+Dia 1 - -1
+
+Dia 1
+
+Ratinho
+(Dono está com bastante sede hoje!)
+
+Ratinho
+(Mas... esse não parece o cheiro de algo bom)
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}*Múrmurios e Suspiros*{/color}
+
+Choice: Chamar Dono
+Choice: Ficar quieto
+Choice: Tentar sair
+
+Player chose: Chamar Dono
+
+Ratinho
+(Ele está vindo até aqui!)
+
+Ratinho
+(Mas ele parece... tonto)
+
+Ratinho
+(Será que está machucado?)
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}Qual foi *hic* pequenino?{/color}
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}Quer um pouco? hehe{/color}
+
+Choice: Pede para experimentar
+Choice: Se esconder do cheiro
+Choice: Pede carinho
+
+Player chose: Pede para experimentar
+
+Ratinho
+*Cof! Cof Cof*
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}O que eu estava pensando, espera ai vou pegar água pra
+gente{/color}
+
+Ratinho
+(Ele parece preocupado, mas sinto que pudemos rir com isso)
+
+Ratinho
+(Definitivamente não quero repetir a experiência...)
+
+Dia 2 - 0
+
+Ratinho
+(Meu dono... ele parece estar com dor e todo encurvado...)
+
+Ratinho
+(E o que é esses sons? Tec tec tec, UGH)
+
+Choice: Chamar Dono
+Choice: Ficar quieto
+Choice: Sair da gaiola
+
+Player chose: Chamar Dono
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}*Humpf*{/color}
+
+Ratinho
+(Ele ta me ignorando... talvez eu possa tentar de novo)
+
+Choice: Chamar Dono
+Choice: Ficar quieto
+Choice: Sair da gaiola
+
+Player chose: Ficar quieto
+
+Ratinho
+(Ele ficou ali... fazendo esse tec tec)
+
+Ratinho
+(E ele dormiu na mesa. Espero que ele melhore...)
+
+--- Mon Oct  9 00:22:16 2023
+
+Dia 3 (-1) - (WIP)
+
+Dia 4 (-1)
+
+Ratinho
+(Ele... não parece bem...)
+
+Ratinho
+(É quase como se o coração estivesse mais... vazio)
+
+Ratinho
+(Ele ta encolhido.. o que eu faço?)
+
+Choice: Chamar dono
+Choice: Ficar quieto
+Choice: Tentar sair
+
+Player chose: Chamar dono
+
+Ratinho
+(Ele ta me ignorando..)
+
+Ratinho
+(Talvez eu possa tentar outra coisa?)
+
+Choice: Chamar dono
+Choice: Ficar quieto
+Choice: Tentar sair
+
+Player chose: Tentar sair
+
+Ratinho
+(Eu tive que ficar insistindo, mas consegui que ele me tirasse)
+
+Ratinho
+(Ele voltou para cama... não parece bem ainda.)
+
+Ratinho
+(E agora?)
+
+Choice: Ir até o dono
+Choice: Se esconder
+Choice: Ir para a cozinha
+
+Player chose: Ir para a cozinha
+
+Ratinho
+(Explorando! Explorandooo!)
+
+Ratinho
+(Ah! Acho que fiz muito barulho...)
+
+Ratinho
+(Ele ficou bravo e me botou na jaula de volta)
+
+Derrota com -2 pontos
+
+Ratinho
+(A semana acabou... ele sempre fica fora o final de semana todo)
+
+Ratinho
+(E volta com aquele cheiro quente... me sinto tonto)
+
+Ratinho
+(Bem, eu posso tentar de novo, semana que vem)
+
+Dia 1 (0)
+
+Dia 1
+
+Ratinho
+(Dono está com bastante sede hoje!)
+
+Ratinho
+(Mas... esse não parece o cheiro de algo bom)
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}*Múrmurios e Suspiros*{/color}
+
+Choice: Chamar Dono
+Choice: Ficar quieto
+Choice: Tentar sair
+
+Player chose: Chamar Dono
+
+Ratinho
+(Ele está vindo até aqui!)
+
+Ratinho
+(Mas ele parece... tonto)
+
+Ratinho
+(Será que está machucado?)
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}Qual foi *hic* pequenino?{/color}
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}Quer um pouco? hehe{/color}
+
+Choice: Pede para experimentar
+Choice: Se esconder do cheiro
+Choice: Pede carinho
+
+Player chose: Pede para experimentar
+
+Ratinho
+*Cof! Cof Cof*
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}O que eu estava pensando, espera ai vou pegar água pra
+gente{/color}
+
+Ratinho
+(Ele parece preocupado, mas sinto que pudemos rir com isso)
+
+Ratinho
+(Definitivamente não quero repetir a experiência...)
+
+Dia 2 (1)
+
+Ratinho
+(Meu dono... ele parece estar com dor e todo encurvado...)
+
+Ratinho
+(E o que é esses sons? Tec tec tec, UGH)
+
+Choice: Chamar Dono
+Choice: Ficar quieto
+Choice: Sair da gaiola
+
+Player chose: Sair da gaiola
+
+Ratinho
+(Nyehe! Ele deixou a gaiola aberta)
+
+Ratinho
+(Alto! Alto! Eu vou cair!!!)
+
+Ratinho
+*SQUEAK SQUEAK SQUEAK*
+
+Ratinho
+(Ah... ele me segurou)
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}Calma ai, pequenino{/color}
+
+Ratinho
+(Bem... e agora?)
+
+Choice: Pedir carinho
+Choice: Morder ele
+Choice: Se esconder
+
+Player chose: Pedir carinho
+
+Ratinho
+(Carinho!!! Com toda minha fofura eu devo conseguir!)
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}Quer ficar comigo enquanto trabalho? Vem aqui bobinho.{/color}
+
+Ratinho
+(Ele parece mais calmo, isso me deixa feliz!)
+
+Dia 3 (2) - (WIP)
+
+Dia 4 (2)
+
+Ratinho
+(Ele... não parece bem...)
+
+Ratinho
+(É quase como se o coração estivesse mais... vazio)
+
+Ratinho
+(Ele ta encolhido.. o que eu faço?)
+
+Choice: Chamar dono
+Choice: Ficar quieto
+Choice: Tentar sair
+
+Player chose: Tentar sair
+
+Ratinho
+(Eu tive que ficar insistindo, mas consegui que ele me tirasse)
+
+Ratinho
+(Ele voltou para cama... não parece bem ainda.)
+
+Ratinho
+(E agora?)
+
+Choice: Ir até o dono
+Choice: Se esconder
+Choice: Ir para a cozinha
+
+Player chose: Ir até o dono
+
+Ratinho
+*Squeak*
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}Ah!!{/color}
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}Deuses, você me deu um susto..{/color}
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}Quer dormir um pouco comigo? Eu to exausto...{/color}
+
+Ratinho
+(Ele é quentinho)
+
+Ratinho
+(Nós acabamos dormindo, mas acho que ele tava precisando)
+
+--- Mon Oct  9 00:33:15 2023
+
+Dia 0 - 0
+
+Ratinho
+(O humano está de volta!)
+
+Ratinho
+(Mas a outra pessoa não está com ele de novo)
+
+Ratinho
+(Hm...)
+
+Ratinho
+(Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele
+ficava antes, com os outros dois.)
+
+{color=#999999}Diego{/color}
+{color=#999999}Bem, está feito, papelada resolvida…{/color}
+
+{color=#999999}Diego{/color}
+{color=#999999}Pelo menos não vai ter pensão.{/color}
+
+Choice: Chamar o dono
+Choice: Ficar quieto
+Choice: Tentar sair
+
+Player chose: Chamar o dono
+
+Ratinho
+*Squeak*
+
+{color=#999999}Diego{/color}
+{color=#999999}Ah, oi pequeno!{/color}
+
+{color=#999999}Diego{/color}
+{color=#999999}Sim, você vai ficar comigo... pelo menos...{/color}
+
+Choice: Cheirar dono
+Choice: Se esconder
+Choice: Fazer barulhos
+
+Player chose: Cheirar dono
+
+{color=#999999}Diego{/color}
+{color=#999999}Ah, tá sentindo o cheiro dela né...{/color}
+
+{color=#999999}Diego{/color}
+{color=#999999}É, ela não vai voltar{/color}
+
+Ratinho
+(Ah...)
+
+Ratinho
+(Quem sabe... Amanhã é um novo dia)
+
+Dia 1 (-1)
+
+Dia 1
+
+Ratinho
+(Dono está com bastante sede hoje!)
+
+Ratinho
+(Mas... esse não parece o cheiro de algo bom)
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}*Múrmurios e Suspiros*{/color}
+
+Choice: Chamar Dono
+Choice: Ficar quieto
+Choice: Tentar sair
+
+Player chose: Chamar Dono
+
+Ratinho
+(Ele está vindo até aqui!)
+
+Ratinho
+(Mas ele parece... tonto)
+
+Ratinho
+(Será que está machucado?)
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}Qual foi *hic* pequenino?{/color}
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}Quer um pouco? hehe{/color}
+
+Choice: Pede para experimentar
+Choice: Se esconder do cheiro
+Choice: Pede carinho
+
+Player chose: Pede carinho
+
+Ratinho
+(Nós brincamos até ele cair no sono...)
+
+Ratinho
+(O que foi bem rápido, mas melhor que nada.)
+
+Dia 2 (-1)
+
+Ratinho
+(Meu dono... ele parece estar com dor e todo encurvado...)
+
+Ratinho
+(E o que é esses sons? Tec tec tec, UGH)
+
+Choice: Chamar Dono
+Choice: Ficar quieto
+Choice: Sair da gaiola
+
+Player chose: Sair da gaiola
+
+Ratinho
+(Nyehe! Ele deixou a gaiola aberta)
+
+Ratinho
+(Alto! Alto! Eu vou cair!!!)
+
+Ratinho
+*SQUEAK SQUEAK SQUEAK*
+
+Ratinho
+(Ah... ele me segurou)
+
+{color=#FFFF00}Diego{/color}
+{color=#FFFF00}Calma ai, pequenino{/color}
+
+Ratinho
+(Bem... e agora?)
+
+Choice: Pedir carinho
+Choice: Morder ele
+Choice: Se esconder
+
+Player chose: Morder ele
+
+{color=#FFFF00}Diego{/color}
+{color=#FFFF00}Qual foi?!{/color}
+
+Ratinho
+(Não parece que ele gostou muito..)
+
+Dia 3 (-2) - (WIP)
+
+Dia 4 (-2)
+
+Ratinho
+(Ele... não parece bem...)
+
+Ratinho
+(É quase como se o coração estivesse mais... vazio)
+
+Ratinho
+(Ele ta encolhido.. o que eu faço?)
+
+Choice: Chamar dono
+Choice: Ficar quieto
+Choice: Tentar sair
+
+Player chose: Tentar sair
+
+Ratinho
+(Eu tive que ficar insistindo, mas consegui que ele me tirasse)
+
+Ratinho
+(Ele voltou para cama... não parece bem ainda.)
+
+Ratinho
+(E agora?)
+
+Choice: Ir até o dono
+Choice: Se esconder
+Choice: Ir para a cozinha
+
+Player chose: Ir até o dono
+
+Ratinho
+*Squeak*
+
+{color=#000088}Diego{/color}
+{color=#000088}Ah!!{/color}
+
+{color=#000088}Diego{/color}
+{color=#000088}Deuses, você me deu um susto..{/color}
+
+{color=#000088}Diego{/color}
+{color=#000088}Quer dormir um pouco comigo? Eu to exausto...{/color}
+
+Ratinho
+(Ele é quentinho)
+
+Ratinho
+(Nós acabamos dormindo, mas acho que ele tava precisando)
+
+Derrota com -1 pontos
+
+Ratinho
+(A semana acabou... ele sempre fica fora o final de semana todo)
+
+Ratinho
+(E volta com aquele cheiro quente... me sinto tonto)
+
+Ratinho
+(Bem, eu posso tentar de novo, semana que vem)
+
+Dia 1 (0)
+
+Dia 1
+
+Ratinho
+(Dono está com bastante sede hoje!)
+
+Ratinho
+(Mas... esse não parece o cheiro de algo bom)
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}*Múrmurios e Suspiros*{/color}
+
+Choice: Chamar Dono
+Choice: Ficar quieto
+Choice: Tentar sair
+
+--- Mon Oct  9 00:34:24 2023
+
+Choice: Chamar Dono
+Choice: Ficar quieto
+Choice: Tentar sair
+
+Player chose: Chamar Dono
+
+Ratinho
+(Ele está vindo até aqui!)
+
+Ratinho
+(Mas ele parece... tonto)
+
+Ratinho
+(Será que está machucado?)
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}Qual foi *hic* pequenino?{/color}
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}Quer um pouco? hehe{/color}
+
+Choice: Pede para experimentar
+Choice: Se esconder do cheiro
+Choice: Pede carinho
+
+Player chose: Pede para experimentar
+
+Ratinho
+*Cof! Cof Cof*
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}O que eu estava pensando, espera ai vou pegar água pra
+gente{/color}
+
+Ratinho
+(Ele parece preocupado, mas sinto que pudemos rir com isso)
+
+Ratinho
+(Definitivamente não quero repetir a experiência...)
+
+Dia 2 (1)
+
+Ratinho
+(Meu dono... ele parece estar com dor e todo encurvado...)
+
+Ratinho
+(E o que é esses sons? Tec tec tec, UGH)
+
+Choice: Chamar Dono
+Choice: Ficar quieto
+Choice: Sair da gaiola
+
+Player chose: Chamar Dono
+
+{color=#FFFF00}Diego{/color}
+{color=#FFFF00}*Humpf*{/color}
+
+Ratinho
+(Ele ta me ignorando... talvez eu possa tentar de novo)
+
+Choice: Chamar Dono
+Choice: Ficar quieto
+Choice: Sair da gaiola
+
+Player chose: Chamar Dono
+
+Choice: Chamar Dono
+Choice: Ficar quieto
+Choice: Sair da gaiola
+
+Player chose: Chamar Dono
+
+Choice: Chamar Dono
+Choice: Ficar quieto
+Choice: Sair da gaiola
+
+Player chose: Chamar Dono
+
+{color=#FFFF00}Diego{/color}
+{color=#FFFF00}*Humpf*{/color}
+
+Ratinho
+(Ele ta me ignorando... talvez eu possa tentar de novo)
+
+Choice: Chamar Dono
+Choice: Ficar quieto
+Choice: Sair da gaiola
+
+Player chose: Sair da gaiola
+
+Ratinho
+(Nyehe! Ele deixou a gaiola aberta)
+
+Ratinho
+(Alto! Alto! Eu vou cair!!!)
+
+Ratinho
+*SQUEAK SQUEAK SQUEAK*
+
+Ratinho
+(Ah... ele me segurou)
+
+{color=#FFFF00}Diego{/color}
+{color=#FFFF00}Calma ai, pequenino{/color}
+
+Ratinho
+(Bem... e agora?)
+
+Choice: Pedir carinho
+Choice: Morder ele
+Choice: Se esconder
+
+Player chose: Se esconder
+
+Ratinho
+(E... eu não consegui. Ele me prendeu de novo)
+
+Ratinho
+(Amanhã posso tentar de novo hehe)
+
+Dia 3 (-1) - (WIP)
+
+Dia 4 (-1)
+
+Ratinho
+(Ele... não parece bem...)
+
+Ratinho
+(É quase como se o coração estivesse mais... vazio)
+
+Ratinho
+(Ele ta encolhido.. o que eu faço?)
+
+Choice: Chamar dono
+Choice: Ficar quieto
+Choice: Tentar sair
+
+Player chose: Tentar sair
+
+Ratinho
+(Eu tive que ficar insistindo, mas consegui que ele me tirasse)
+
+Ratinho
+(Ele voltou para cama... não parece bem ainda.)
+
+Ratinho
+(E agora?)
+
+Choice: Ir até o dono
+Choice: Se esconder
+Choice: Ir para a cozinha
+
+Player chose: Ir até o dono
+
+Ratinho
+*Squeak*
+
+--- Mon Oct  9 00:41:35 2023
+
+--- Mon Oct  9 00:43:30 2023
+
+--- Mon Oct  9 00:46:57 2023
+
