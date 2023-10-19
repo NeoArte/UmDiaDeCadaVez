@@ -1,4 +1,5 @@
 label day_5:
+    scene bg room with fade
     if score >= 3:
         jump day_5_win
     else:

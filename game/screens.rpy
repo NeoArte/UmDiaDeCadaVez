@@ -12,6 +12,8 @@ init offset = -1
 style default:
     properties gui.text_properties()
     language gui.language
+    hover_sound "audio/click.mp3"
+    activate_sound "audio/click.mp3"
 
 style input:
     properties gui.text_properties("input", accent=True)
@@ -297,7 +299,7 @@ screen navigation():
 
         if main_menu:
 
-            textbutton _("Start") action Start()
+            textbutton _("Start")action Start()
 
         else:
 

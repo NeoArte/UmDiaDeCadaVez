@@ -1,6 +1,6 @@
 label day_4():
     $ day_color = week_colors[WeekDay.FOUR]
-    scene bg room
+    scene bg room with fade
     "Dia 4 ([score])"
     # TODO - Gerar valores aleatórios
     $ version = 1
@@ -18,6 +18,8 @@ label .version_1:
 
     menu .choice_1:
         "Chamar dono":
+            show diego triste
+            diego "..."
             rat_think "Ele ta me ignorando.."
             rat_think "Talvez eu possa tentar outra coisa?"
             jump .choice_1
@@ -31,9 +33,10 @@ label .version_1:
             rat_think "E agora?"
     menu .choice_2:
         "Ir até o dono":
+            show diego triste
+            diego "..."
             rat_speak "Squeak"
-            show diego
-            diego "Ah!!"
+            diego feliz @ bravo "Ah!!"
             diego "Deuses, você me deu um susto.."
             diego "Quer dormir um pouco comigo? Eu to exausto..."
             rat_think "Ele é quentinho"

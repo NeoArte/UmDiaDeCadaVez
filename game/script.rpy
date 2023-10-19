@@ -1,8 +1,14 @@
 ﻿label start:
+    stop music fadeout 2.5
+    scene bg room with Pixellate(1.0, 5)
     call setup from start_setup
-    scene bg room
 
     $ day_color = week_colors[WeekDay.ZERO]
+    "NOTA: Essa é uma beta e alguns sistemas não estão finalizados"
+    "Atualmente, no começo de cada dia você vai ver quantos 'pontos' você tem no total"
+    "Exemplo: Dia x - 1, significa que você está com 1 ponto"
+    "Para ganhar e ajudar efetivamente seu dono, chegue no 5º dia com 3 pontos positivos"
+    "Boa sorte!"
     "Dia 0 - [score]"
     rat_think "O humano está de volta!"
     rat_think "Mas a outra pessoa não está com ele de novo"
@@ -18,12 +24,12 @@
         "Chamar o dono":
             show diego
             rat_speak "Squeak"
-            diego "Ah, oi pequeno!"
-            diego "Sim, você vai ficar comigo... pelo menos..."
+            diego feliz "Ah, oi pequeno!"
+            diego triste "Sim, você vai ficar comigo... pelo menos..."
             hide diego
             jump tutorial_2
         "Ficar quieto":
-            show diego
+            show diego triste
             diego "Ah..."
             diego "Está feito... Deuses está mesmo feito"
             rat_think "Ele está chorando..."
@@ -33,22 +39,22 @@
         "Tentar sair":
             show diego
             diego "Opa, opa, opa, calma lá."
-            diego "Não vai tentar fugir de mim também ein..."
-            diego "Hah..."
+            diego rindo "Não vai tentar fugir de mim também ein..."
+            diego @ triste "Hah..."
             hide diego
             jump tutorial_2    
 
     menu tutorial_2:
         "Cheirar dono":
             show diego
-            diego "Ah, tá sentindo o cheiro dela né..."
-            diego "É, ela não vai voltar"
+            diego feliz "Ah, tá sentindo o cheiro dela né..."
+            diego triste "É, ela não vai voltar"
             rat_think "Ah..."
             rat_think "Quem sabe... Amanhã é um novo dia"
             $ score -= 1
             jump day_1
         "Se esconder":
-            show diego
+            show diego triste
             diego "É, bem... eu nunca fui o favorito..."
             diego "...Aqui sua comida"
             rat_think "Espero que ele fique melhor amanhã..."            
@@ -57,9 +63,9 @@
         "Fazer barulhos":
             show diego
             diego "O que foi pequeno?"
-            diego "Hehe"
+            diego rindo "Hehe"
             diego "Você ta me lembrando como você era com..."
-            diego "Hm..."
+            diego triste "Hm..."
             rat_think "Espero que ele fique melhor amanhã..."
             $ score -= 1
             jump day_1

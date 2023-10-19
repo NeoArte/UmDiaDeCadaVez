@@ -1,6 +1,8 @@
 define config.log = "log_txt"
 define config.default_language = "portuguese"
 define config.language = "portuguese"
+define config.main_menu_music = "main_menu.mp3"
+define config.main_menu_music_fadein = 2.0
 
 define score = 0
 
@@ -56,8 +58,9 @@ init 1 python:
 
 default day_color = week_colors[WeekDay.ONE]
 label setup:
+    queue music main_menu loop fadein 1.0
     define diego = Character("Diego",
-                             image="rodrigo",
+                             image="diego",
                              who_prefix='{color=[day_color]}',
                              who_suffix='{/color}',
                              what_prefix='{color=[day_color]}',

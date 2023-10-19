@@ -1,5 +1,5 @@
 label day_1():
-    scene bg room
+    scene bg room with fade
     "Dia 1 ([score])"
     # TODO - Gerar valores aleatórios
     $ version = 1
@@ -16,7 +16,7 @@ label .version_1:
     "Dia 1"
     rat_think "Dono está com bastante sede hoje!"
     rat_think "Mas... esse não parece o cheiro de algo bom"
-    show diego
+    show diego triste
     diego "*Múrmurios e Suspiros*"
     hide diego
     menu .choice_1:
@@ -24,7 +24,7 @@ label .version_1:
             rat_think "Ele está vindo até aqui!"
             rat_think "Mas ele parece... tonto"
             rat_think "Será que está machucado?"
-            show diego
+            show diego bebado
             diego "Qual foi *hic* pequenino?"
             diego "Quer um pouco? hehe"
             hide diego
@@ -41,21 +41,21 @@ label .version_1:
             jump .choice_1
     menu .choice_2:
         "Pede para experimentar":
+            show diego triste
             rat_speak "Cof! Cof Cof"
-            show diego
-            diego "O que eu estava pensando, espera ai vou pegar água pra gente"
+            diego rindo @ triste "Ai ai, o que eu estava pensando, espera ai vou pegar água pra gente"
             rat_think "Ele parece preocupado, mas sinto que pudemos rir com isso"
-            rat_think "Definitivamente não quero repetir a experiência..."
+            rat_think "Ehhh pena que o gosto era bem ruim. Eca! Hihihi"
             $ score += 1
             jump day_2
         "Se esconder do cheiro":
-            show diego
+            show diego bravo
             diego "Humf! Mais pra mim"
             rat_think "Ele foi pegar mais... espero que ele melhore amanhã"
             $ score -= 1
             jump day_2
         "Pede carinho":
-            show diego
+            show diego feliz
             rat_think "Nós brincamos até ele cair no sono..."
             rat_think "O que foi bem rápido, mas melhor que nada."
             jump day_2
