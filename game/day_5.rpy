@@ -50,6 +50,7 @@ label day_5_win:
             diego "Tá aqui seus petiscos"
             diego @ laughing "E eu achava que você já tinha me inspirado o suficiente nesses últimos dias hahaha"
             diego happy "Obrigado viu pequeno? Você me ajuda muito"
+    scene bg diegorat with fade
     "Vitória com [score] pontos"
     return
 

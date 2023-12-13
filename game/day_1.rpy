@@ -40,6 +40,7 @@ label .version_1:
                             rat_speak "..."
                             diego "Ta."
                             diego "Vou pegar água pra gente."
+                            $ score += 1
                             jump day_2
                     "[d1_v1_aa[1]]":
                         $ menuset_d1.discard("[d1_v1_aa[1]]")
@@ -53,6 +54,7 @@ label .version_1:
                             diego "Uhh... bem, já que tô aqui… *hic*."
                             diego "Deixa eu encher o tanque.."
                             rat_think "Ah, sério outra? Ah, mas vou dormir mesmo."
+                            $ score -= 1
                             jump day_2
                     "[d1_v1_ab[1]]":
                         $ menuset_d1.discard("[d1_v1_ab[1]]")
@@ -103,6 +105,7 @@ label .version_1:
                 diego "hehe e já que to aqui, essa acabou..."
                 diego "ME VE MAIS UMA CHEFIA hahahahah."
                 rat_think "Ugh.. esse cheiro de novo, é hoje ele vai ficar nessa."
+                $ score -= 1
                 jump day_2
         "[d1_v1_c[1]]":
             $ menuset_d1.discard("[d1_v1_c[1]]")

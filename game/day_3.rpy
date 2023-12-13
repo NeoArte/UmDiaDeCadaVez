@@ -29,7 +29,8 @@ label .version_1:
                 diego sad @ laughing "Pelo menos alguém nessa casa tem que tá arrumado hahaha."
                 diego "..."
                 diego "Mas bem fica aí então, assim já fica no jeitinho"
-                jump day_3
+                $ score -= 1
+                jump day_5
         "[d3_v1_a[1]]":
             $ menuset_d3.discard("[d3_v1_a[1]]")
             jump .path_a
@@ -40,7 +41,7 @@ label .version_1:
                 rat_think "Ele tá bem hoje ein? Tá até arrumando minhas coisas"
                 rat_think "bem, vou aproveitar aqui então."
                 rat_think "Hmm essa serragem nova tem cheiro bom."
-                jump day_3
+                jump day_5
         "[d3_v1_b[1]]":
             $ menuset_d3.discard("[d3_v1_b[1]]")
             jump .path_b
@@ -61,7 +62,8 @@ label .version_1:
                 diego "Você… é o que me sobrou…"
                 diego "Você merece um lugar limpo pequeno"
                 diego "eu uh… ainda to vendo se eu mereço um também"
-                jump day_3
+                $ score += 1
+                jump day_5
         "[d3_v1_c[1]]":
             $ menuset_d3.discard("[d3_v1_c[1]]")
             jump .path_c

@@ -35,7 +35,7 @@ label .version_1:
                     hide diego
                     diego "Hmmm"
                     rat_think "Droga ele enterrou a cabeça onde ele tá deitado, acho que não está pra conversa…"
-                    jump day_4
+                    jump day_5
         "[d4_v1_a[1]]]\nRepetições: [d4_v1_a_repetitions]":
             $ menuset_d4.pop()
             jump .path_a
@@ -48,7 +48,7 @@ label .version_1:
                 diego "..."
                 diego "*ronco*"
                 rat_think "Boa noite."
-                jump day_4
+                jump day_5
         "[d4_v1_b[1]]":
             $ menuset_d4.discard("[d4_v1_b[1]]")
             jump .path_b
@@ -68,7 +68,8 @@ label .version_1:
                             "Ambos se abraçam"
                             diego happy @ sad "ah..."
                             diego "bem... podemos dormir juntos sim..."
-                            jump day_4
+                            $ score += 1
+                            jump day_5
                     "[d4_v1_ca[1]]":
                         $ menuset_d4.discard("[d4_v1_ca[1]]")
                         jump .path_ca
@@ -92,7 +93,8 @@ label .version_1:
                                         diego happy @ laughing "Ahahaha okay, ufa."
                                         diego "Tá quer ficar fora essa noite?"
                                         diego "Pode ser até só se comporta."
-                                        jump day_4
+                                        $ score += 1
+                                        jump day_5
                                 "[d4_v1_cba[1]]":
                                     $ menuset_d4.discard("[d4_v1_cba[1]]")
                                     jump .path_cba
@@ -108,7 +110,8 @@ label .version_1:
                                         rat_think "Ah, comida né! Não tem nada aqui disso"
                                         rat_think "só sujeira..."
                                         rat_think "Bem vou voltar lá."
-                                        jump day_4
+                                        $ score -= 1
+                                        jump day_5
                                 "[d4_v1_cbb[1]]":
                                     $ menuset_d4.discard("[d4_v1_cbb[1]]")
                                     jump .path_cbb
@@ -135,7 +138,8 @@ label .version_1:
                                         diego " TARDE! hahahahaha"
                                         rat_think "Uh, faz tempo que não vejo outra pessoa, nem ele conversando."
                                         rat_think "Hah parece que ele também gostou"
-                                        jump day_4
+                                        $ score += 1
+                                        jump day_5
                                 "[d4_v1_cbc[1]]":
                                     $ menuset_d4.discard("[d4_v1_cbc[1]]")
                                     jump .path_cbc
@@ -157,7 +161,8 @@ label .version_1:
                             diego "Tu não come o suficiente não?!"
                             diego "Toma aqui sua comida e BOA NOITE!"
                             diego -angry "Onde já se viu…"
-                            jump day_4
+                            $ score -= 1
+                            jump day_5
                     "[d4_v1_cc[1]]":
                         $ menuset_d4.discard("[d4_v1_cc[1]]")
                         jump .path_cc

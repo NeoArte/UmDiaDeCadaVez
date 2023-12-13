@@ -53,6 +53,7 @@ label .version_1:
                     diego "E FICA QUIETO!"
                     diego "Pela mor de deus bicho chato!"
                     rat_think "Ah… ele não tá pra conversa… que droga"
+                    $ score -= 3
                     jump day_3
         "[d2_v1_a[1]]\nRepetições: [d2_v1_a_repetitions]":
             $ menuset_d2.discard("[d2_v1_a[1]]\nRepetições: [d2_v1_a_repetitions]")
@@ -87,6 +88,7 @@ label .version_1:
                             diego "Ah ok, então pequeno, só rapidinho pra eu terminar aqui"
                             scene bg desk happy with fade
                             diego "Hmm ok onde eu estava mesmo?"
+                            $ score += 1
                             jump day_3
                     "[d2_v1_ca[1]]":
                         $ menuset_d2.discard("[d2_v1_ca[1]]")
@@ -98,6 +100,7 @@ label .version_1:
                             diego "Huh bem fica ai então, só não cai denovo!"
                             diego "Bicho louco"
                             show diego laughing
+                            $ score -= 1
                             jump .v1_m2
                     "[d2_v1_cc[0]]":
                         label .path_cc:
