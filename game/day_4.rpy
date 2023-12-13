@@ -14,6 +14,7 @@ label day_4():
 
 label .version_1:
     "Ao fundo é possível ouvir sons de choro."
+    show diego
     diego sad "Gulp… sniff.. Uhuhh.."
     rat_think "Uh?"
     rat_think "Ele ta chorando..."
@@ -37,7 +38,8 @@ label .version_1:
                     rat_think "Droga ele enterrou a cabeça onde ele tá deitado, acho que não está pra conversa…"
                     jump day_5
         "[d4_v1_a[1]]]\nRepetições: [d4_v1_a_repetitions]":
-            $ menuset_d4.pop()
+            $ menuset_d4.discard("[d4_v1_a[1]]\nRepetições: [d4_v1_a_repetitions]")
+            $ print(menuset_d4)
             jump .path_a
         "[d4_v1_b[0]]":
             label .path_b:
@@ -62,7 +64,7 @@ label .version_1:
                     "[d4_v1_ca[0]]":
                         $ menuset_d4.discard("[d4_v1_ca[1]]")
                         label .path_ca:
-                            diego confused @ surprised "AH!"
+                            diego surprised "AH!"
                             diego "Ah... ah oi pequeno..."
                             diego "desculpa eu..."
                             "Ambos se abraçam"
@@ -134,8 +136,8 @@ label .version_1:
                                         diego "Sim! Ele é de estimação, mais limpo que eu hahahaha"
                                         diego "Não me lembro de você, novo por aqui né?"
                                         diego "Ah que bom, bem vindo então! Boa noite!"
-                                        diego surprised @ confused "..."
-                                        diego " TARDE! hahahahaha"
+                                        diego "..."
+                                        diego @ surprised" TARDE! hahahahaha"
                                         rat_think "Uh, faz tempo que não vejo outra pessoa, nem ele conversando."
                                         rat_think "Hah parece que ele também gostou"
                                         $ score += 1

@@ -88,7 +88,7 @@ init 2 python:
             "[d3_v1_c[1]]",
             })
     menuset_d4.update({
-            "[d4_v1_a[1]]\nRepetições: [d4_v1_a_repetitions]",
+            "[d4_v1_a[1]]]\nRepetições: [d4_v1_a_repetitions]",
             "[d4_v1_b[1]]",
             "[d4_v1_c[1]]",
             "[d4_v1_ca[1]]",

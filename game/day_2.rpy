@@ -1,7 +1,7 @@
 label day_2():
     scene black with fade
     "Dia 2 - ([score])"
-    scene bg desk happy with fade
+    scene bg desk open with fade
     $ version = 1
     $ day_color = week_colors[WeekDay.TWO]
 

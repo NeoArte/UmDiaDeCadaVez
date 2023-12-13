@@ -6322,3 +6322,178 @@ Choice: [d2_v1_cc[0]]
 
 --- Wed Dec 13 16:52:11 2023
 
+--- Wed Dec 13 19:26:13 2023
+
+Dia 4 - (0)
+
+Ao fundo é possível ouvir sons de choro.
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}Gulp… sniff.. Uhuhh..{/color}
+
+Ratinho
+(Uh?)
+
+Ratinho
+(Ele ta chorando...)
+
+Choice: [d4_v1_a[0]]
+Choice: [d4_v1_a[1]]] Repetições: [d4_v1_a_repetitions]
+Choice: [d4_v1_b[0]]
+Choice: [d4_v1_c[0]]
+
+--- Wed Dec 13 19:29:11 2023
+
+Dia 4 - (0)
+
+Ao fundo é possível ouvir sons de choro.
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}Gulp… sniff.. Uhuhh..{/color}
+
+Ratinho
+(Uh?)
+
+Ratinho
+(Ele ta chorando...)
+
+Choice: [d4_v1_a[0]]
+Choice: [d4_v1_a[1]]] Repetições: [d4_v1_a_repetitions]
+Choice: [d4_v1_b[0]]
+Choice: [d4_v1_c[0]]
+
+--- Wed Dec 13 19:30:14 2023
+
+Dia 4 - (0)
+
+Ao fundo é possível ouvir sons de choro.
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}Gulp… sniff.. Uhuhh..{/color}
+
+Ratinho
+(Uh?)
+
+Ratinho
+(Ele ta chorando...)
+
+Choice: [d4_v1_a[0]]
+Choice: [d4_v1_a[1]]] Repetições: [d4_v1_a_repetitions]
+Choice: [d4_v1_b[0]]
+Choice: [d4_v1_c[0]]
+
+Player chose: [d4_v1_a[1]]] Repetições: [d4_v1_a_repetitions]
+
+Ratinho
+(EI! Ei vem cá! O que foi?!)
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}Gulp… sniff.. Uhuhh..{/color}
+
+Ratinho
+(Uh ele não me ouviu)
+
+Choice: [d4_v1_a[0]]
+Choice: [d4_v1_b[0]]
+Choice: [d4_v1_c[0]]
+
+--- Wed Dec 13 19:31:13 2023
+
+Dia 4 - (0)
+
+Ao fundo é possível ouvir sons de choro.
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}Gulp… sniff.. Uhuhh..{/color}
+
+Ratinho
+(Uh?)
+
+Ratinho
+(Ele ta chorando...)
+
+Choice: [d4_v1_a[0]]
+Choice: [d4_v1_b[0]]
+Choice: [d4_v1_c[0]]
+
+Player chose: [d4_v1_a[0]]
+
+Ratinho
+(EI! Ei vem cá! O que foi?!)
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}Gulp… sniff.. Uhuhh..{/color}
+
+Ratinho
+(Uh ele não me ouviu)
+
+Choice: [d4_v1_a[0]]
+Choice: [d4_v1_b[0]]
+Choice: [d4_v1_c[0]]
+
+Player chose: [d4_v1_a[0]]
+
+Ratinho
+(EI! Ei vem cá! O que foi?!)
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}Gulp… sniff.. Uhuhh..{/color}
+
+Ratinho
+(Uh ele não me ouviu)
+
+Choice: [d4_v1_a[0]]
+Choice: [d4_v1_b[0]]
+Choice: [d4_v1_c[0]]
+
+Player chose: [d4_v1_a[0]]
+
+Ratinho
+(Humano! Sério! Tudo certo?)
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}Hmmm{/color}
+
+Ratinho
+(Droga ele enterrou a cabeça onde ele tá deitado, acho que não está pra
+conversa…)
+
+--- Wed Dec 13 19:33:26 2023
+
+--- Wed Dec 13 19:34:03 2023
+
+Dia 2 - (0)
+
+--- Wed Dec 13 19:34:51 2023
+
+Dia 4 - (0)
+
+Ao fundo é possível ouvir sons de choro.
+
+{color=#008B8B}Diego{/color}
+{color=#008B8B}Gulp… sniff.. Uhuhh..{/color}
+
+Ratinho
+(Uh?)
+
+Ratinho
+(Ele ta chorando...)
+
+Choice: [d4_v1_a[0]]
+Choice: [d4_v1_b[0]]
+Choice: [d4_v1_c[0]]
+
+Player chose: [d4_v1_c[0]]
+
+Ratinho
+(Huh, ele nem me trancou.)
+
+Ratinho
+(Bem okay, agora pra onde?)
+
+Choice: [d4_v1_ca[0]]
+Choice: [d4_v1_cb[0]]
+Choice: [d4_v1_cc[0]]
+
+Player chose: [d4_v1_ca[0]]
+
