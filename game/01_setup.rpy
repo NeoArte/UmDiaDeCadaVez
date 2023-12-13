@@ -67,4 +67,11 @@ label setup:
                              what_suffix='{/color}')
     define rat_think = Character("Ratinho", what_prefix='(', what_suffix=')')
     define rat_speak = Character("Ratinho", what_prefix='*', what_suffix='*')
+    transform rat_right:
+        xzoom -1.0
+        yalign 1.5
+        xalign 1.0
+    transform rat_stand_right:
+        yalign 2.5
+        xalign 1.0
     return

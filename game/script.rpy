@@ -2,19 +2,12 @@
     stop music fadeout 2.5
     scene bg room with Pixellate(1.0, 5)
     call setup from start_setup
-
     $ day_color = week_colors[WeekDay.ZERO]
-    "NOTA: Essa é uma beta e alguns sistemas não estão finalizados"
-    "Atualmente, no começo de cada dia você vai ver quantos 'pontos' você tem no total"
-    "Exemplo: Dia x - 1, significa que você está com 1 ponto"
-    "Para ganhar e ajudar efetivamente seu dono, chegue no 5º dia com 3 pontos positivos"
-    "Boa sorte!"
-    "Dia 0 - [score]"
+    "Dia 0"
     rat_think "O humano está de volta!"
     rat_think "Mas a outra pessoa não está com ele de novo"
     rat_think "Hm..."
     rat_think "Esse é o cheiro dela, eles se encontraram, mas ele não parece feliz como ele ficava antes, com os outros dois."
-
     show diego
     diego "Bem, está feito, papelada resolvida…"
     diego "Pelo menos não vai ter pensão."
@@ -42,8 +35,7 @@
             diego rindo "Não vai tentar fugir de mim também ein..."
             diego @ triste "Hah..."
             hide diego
-            jump tutorial_2    
-
+            jump tutorial_2
     menu tutorial_2:
         "Cheirar dono":
             show diego
