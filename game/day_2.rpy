@@ -57,9 +57,9 @@ label .version_1:
                     jump day_3
         "[d2_v1_a[1]]\nRepetições: [d2_v1_a_repetitions]":
             $ menuset_d2.discard("[d2_v1_a[1]]\nRepetições: [d2_v1_a_repetitions]")
-            jump .path_a
+            jump .v1_m1_path_a
         "[d2_v1_b[0]]":
-            label .path_b:
+            label .v1_m1_path_b:
                 $ menuset_d2.discard("[d2_v1_b[1]]")
                 rat_think "Meh, ele é esperto, deve se virar, essa luz tá chata vou dormir mais pra dentro"
                 diego angry "GAH, chega! Não aguento mais!"
@@ -69,9 +69,9 @@ label .version_1:
                 jump day_3
         "[d2_v1_b[1]]":
             $ menuset_d2.discard("[d2_v1_b[1]]")
-            jump .path_b
+            jump .v1_m1_path_b
         "[d2_v1_c[0]]":
-            label .path_c:
+            label .v1_m1_path_c:
                 $ menuset_d2.discard("[d2_v1_c[1]]")
                 "Clack Clack"
                 diego -angry "OPA pera aí!"
@@ -79,7 +79,7 @@ label .version_1:
                 menu .v1_m2:
                     set menuset_d2
                     "[d2_v1_ca[0]]":
-                        label .path_ca:
+                        label .v1_m1_path_ca:
                             $ menuset_d2.discard("[d2_v1_ca[1]]")
                             rat_speak "Squeaaaaaak"
                             diego happy "Ah qual foi? Quer colo?"
@@ -92,9 +92,9 @@ label .version_1:
                             jump day_3
                     "[d2_v1_ca[1]]":
                         $ menuset_d2.discard("[d2_v1_ca[1]]")
-                        jump .path_ca
+                        jump .v1_m1_path_ca
                     "[d2_v1_cb[0]]":
-                        label .path_cb:
+                        label .v1_m1_path_cb:
                             diego surprised "AH, mas que!"
                             diego angry "Ei!"
                             diego "Huh bem fica ai então, só não cai denovo!"
@@ -103,7 +103,7 @@ label .version_1:
                             $ score -= 1
                             jump .v1_m2
                     "[d2_v1_cc[0]]":
-                        label .path_cc:
+                        label .v1_m1_path_cc:
                             $ menuset_d2.discard("[d2_v1_cc[1]]")
                             diego surprised "Ei?!"
                             diego -surprised @ surprised "Huh okay, tá bom então"
@@ -111,13 +111,127 @@ label .version_1:
                             jump day_3
                     "[d2_v1_cc[1]]":
                         $ menuset_d2.discard("[d2_v1_cc[1]]")
-                        jump .path_cc
+                        jump .v1_m1_path_cc
         "[d2_v1_c[1]]":
             $ menuset_d2.discard("[d2_v1_c[1]]")
-            jump .path_c
+            jump .v1_m1_path_c
     return
 
 label .version_2:
+    "*CLACK CLACK CLACK CLACK CLACK CLACK CLACK CLACK CLACK CLACK CLACK CLACK CLACK CLACK CLACK CLACK CLACK CLACK CLACK CLACK CLACK *"
+    show diego angry
+    show rat confused at rat_right
+    diego "POR QUE SÓ NÃO FUNCIONA?!?” “GAAAH EU JÁ FIZ ISSO!!"
+    rat_think "AH!!!"
+    rat_think "O que tá acontecendo?!?"
+    show rat standing at rat_stand_right
+    rat_think "O que ele fica fazendo ali?"
+    rat_think "Ele tá brigando, ou estressado com algo."
+    menu .v2_m1:
+        set menuset_d1
+        "[d1_v2_a[0]]":
+            label .v2_m1_path_a:
+                $ menuset_d1.discard("[d1_v2_a[1]]")
+                show rat standing at rat_stand_right
+                rat_think "Ei! Humano olha pra mim, aqui!"
+                rat_speak "Squeee! Squeak! Squee!"
+                diego sad @ surprised "Hã?"
+                diego "*Glup* *Sniff*"
+                diego "O que você quer garoto?"
+                diego @ -sad "Volta a dormir, eu quero ficar sozinho."
+                rat_think "Ei! Qual foi?"
+                diego angry "Eu não estou com cabeça para isso! Cadê o pano da gaiola?"
+                scene black
+                diego "Vai dormir!"
+                $ score -= 1
+            jump day_2
+        "[d1_v2_a[1]]":
+            $ menuset_d1.discard("[d1_v2_a[1]]")
+            jump .v2_m1_path_a
+        "[d1_v2_b[0]]":
+            label .v2_m1_path_b:
+                $ menuset_d1.discard("[d1_v2_b[1]]")
+                rat_think "Hm, não vou conseguir ajudar ele, não tem porque ficar acordado…"
+                scene black with fade
+                "Algum tempo depois..."
+                diego "*Sniff*"
+                diego "Eu não aguento mais sentir tanta falta."
+                scene bg desk closed with fade
+                rat_think "Hm? Ai ai, ele ainda não parou…"
+                show diego sad
+            jump .v2_m1
+        "[d1_v2_c[0]]":
+            label .v2_m1_path_c:
+                $ menuset_d1.discard("[d1_v2_c[1]]")
+                "Você sai da gaiola sem problemas."
+                rat_think "Meu Humano está muito distraído."
+                rat_think "Não me viu ainda..."
+                menu .v2_m2:
+                    set menuset_d1
+                    "[d1_v2_ca[0]]":
+                        label .v1_m1_path_ca:
+                            $ menuset_d1.discard("[d1_v2_ca[1]]")
+                            show rat standing at rat_stand_right
+                            diego surprised "Gulp Hã?"
+                            diego "Garoto?"
+                            diego "*Sniff* Mas como?"
+                            diego "..."
+                            rat_think "..."
+                            diego happy "Ah…"
+                            diego sad @ happy "Esses seus  olhinhos me lembram…"
+                            diego "Sigh… sinto saudades sabe?"
+                            diego "Como eu queria que nada tivesse acontecido…"
+                            diego "*Sniff Sniff*"
+                            rat_speak "Squeak!!!"
+                            diego -sad @ sad "*Glup*"
+                            diego "Eu sei."
+                            diego "Desculpa..."
+                            diego "Obrigado garoto, obrigado."
+                            "A noite termina, o humano fazendo carinho em seu animalzinho."
+                            $ score += 1
+                        jump day_2
+                    "[d1_v2_ca[1]]":
+                        $ menuset_d1.discard("[d1_v2_ca[1]]")
+                        jump .v1_m1_path_ca
+                    "[d1_v2_cb[0]]":
+                        label .v1_m1_path_cb:
+                            $ menuset_d1.discard("[d1_v2_cb[1]]")
+                            diego surprised "AI!!!"
+                            diego angry "mas que... QUE MERDA GAROTO!!!"
+                            diego "Como que você saiu?!?!"
+                            rat_speak "squea..-"
+                            diego "Não quero saber!!!"
+                            diego "Você vai voltar pra gaiola."
+                            diego "E FICA AI! peste.."
+                            $ score -= 2
+                        jump day_2
+                    "[d1_v2_cb[1]]":
+                        $ menuset_d1.discard("[d1_v2_cb[1]]")
+                        jump .v1_m1_path_cb
+                    "[d1_v2_cc[0]]":
+                        label .v1_m1_path_cc:
+                            $ menuset_d1.discard("[d1_v2_cc[1]]")
+                            diego surprised "O que?!?!"
+                            diego -surprised @ surprised "Mas como foi que você saiu da gaiola?"
+                            show rat standing at rat_stand_right
+                            rat_speak "Squeak! Squeak!"
+                            diego @ sad "*Glup*"
+                            diego "Ai ai."
+                            diego "O que faço com você?"
+                            diego @ sad "Você me trás tantas lembranças…"
+                            "E então... ambos se abraçam"
+                            diego "*Sniff*... ok.."
+                            diego "Pronto garoto."
+                            diego "Tá mais confortável né?"
+                            diego "Obrigado por isso."
+                            diego "Não deve ser fácil pra você também."
+                        jump day_2
+                    "[d1_v2_cc[1]]":
+                        $ menuset_d1.discard("[d1_v2_cc[1]]")
+                        jump .v1_m1_path_cc
+        "[d1_v2_c[1]]":
+            $ menuset_d1.discard("[d1_v2_c[1]]")
+            jump .v2_m1_path_c
     return
 
 label .version_3:

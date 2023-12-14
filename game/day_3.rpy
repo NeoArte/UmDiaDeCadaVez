@@ -23,7 +23,7 @@ label .version_1:
     menu .v1_m1:
         set menuset_d3
         "[d3_v1_a[0]]":
-            label .path_a:
+            label .v1_m1_path_a:
                 $ menuset_d3.discard("[d3_v1_a[1]]")
                 diego "Huh? Calma pequeno, tenho que te deixar certinho."
                 diego sad @ laughing "Pelo menos alguém nessa casa tem que tá arrumado hahaha."
@@ -33,9 +33,9 @@ label .version_1:
                 jump day_5
         "[d3_v1_a[1]]":
             $ menuset_d3.discard("[d3_v1_a[1]]")
-            jump .path_a
+            jump .v1_m1_path_a
         "[d3_v1_b[0]]":
-            label .path_b:
+            label .v1_m1_path_b:
                 $ menuset_d3.discard("[d3_v1_b[1]]")
                 rat_think "Ah, que bom então!"
                 rat_think "Ele tá bem hoje ein? Tá até arrumando minhas coisas"
@@ -44,9 +44,9 @@ label .version_1:
                 jump day_5
         "[d3_v1_b[1]]":
             $ menuset_d3.discard("[d3_v1_b[1]]")
-            jump .path_b
+            jump .v1_m1_path_b
         "[d3_v1_c[0]]":
-            label .path_c:
+            label .v1_m1_path_c:
                 $ menuset_d3.discard("[d3_v1_c[1]]")
                 diego "Opa opa opa, que isso pequeno?"
                 diego "É te peguei, e agora?"
@@ -66,7 +66,7 @@ label .version_1:
                 jump day_5
         "[d3_v1_c[1]]":
             $ menuset_d3.discard("[d3_v1_c[1]]")
-            jump .path_c
+            jump .v1_m1_path_c
     return
 
 label .version_2:

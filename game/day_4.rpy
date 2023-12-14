@@ -21,7 +21,7 @@ label .version_1:
     menu .v1_m1:
         set menuset_d4
         "[d4_v1_a[0]]":
-            label .path_a:
+            label .v1_m1_path_a:
                 $ d4_v1_a_repetitions += 1
                 if d4_v1_a_repetitions < 3:
                     $ menuset_d4.discard("[d4_v1_a[0]]")
@@ -40,9 +40,9 @@ label .version_1:
         "[d4_v1_a[1]]]\nRepetições: [d4_v1_a_repetitions]":
             $ menuset_d4.discard("[d4_v1_a[1]]\nRepetições: [d4_v1_a_repetitions]")
             $ print(menuset_d4)
-            jump .path_a
+            jump .v1_m1_path_a
         "[d4_v1_b[0]]":
-            label .path_b:
+            label .v1_m1_path_b:
                 $ menuset_d4.discard("[d4_v1_b[1]]")
                 rat_think "Hm, e eu com isso, desculpa mas não tô pra drama hoje."
                 diego sad "Gulp… sniff.. Uhuhh.."
@@ -53,17 +53,17 @@ label .version_1:
                 jump day_5
         "[d4_v1_b[1]]":
             $ menuset_d4.discard("[d4_v1_b[1]]")
-            jump .path_b
+            jump .v1_m1_path_b
         "[d4_v1_c[0]]":
             $ menuset_d4.discard("[d4_v1_c[1]]")
-            label .path_c:
+            label .v1_m1_path_c:
                 rat_think "Huh, ele nem me trancou."
                 rat_think "Bem okay, agora pra onde?"
                 menu .v1_m2:
                     set menuset_d4
                     "[d4_v1_ca[0]]":
                         $ menuset_d4.discard("[d4_v1_ca[1]]")
-                        label .path_ca:
+                        label .v1_m1_path_ca:
                             diego surprised "AH!"
                             diego "Ah... ah oi pequeno..."
                             diego "desculpa eu..."
@@ -74,10 +74,10 @@ label .version_1:
                             jump day_5
                     "[d4_v1_ca[1]]":
                         $ menuset_d4.discard("[d4_v1_ca[1]]")
-                        jump .path_ca
+                        jump .v1_m1_path_ca
                     "[d4_v1_cb[0]]":
                         $ menuset_d4.discard("[d4_v1_cb[1]]")
-                        label .path_cb:
+                        label .v1_m1_path_cb:
                             diego -sad "Hm? Ah é…"
                             diego "tá *Sigh* eu ainda não dei comida pro guri né?"
                             diego "Ookay pequeno… pequeno?"
@@ -86,7 +86,7 @@ label .version_1:
                             menu .v1_m3:
                                 set menuset_d4
                                 "[d4_v1_cba[0]]":
-                                    label .path_cba:
+                                    label .v1_m1_path_cba:
                                         $ menuset_d4.discard("[d4_v1_cba[1]]")
                                         rat_speak "Squeak! Squeak! Squeak?"
                                         rat_think "Ei! To aqui! Algum problema?"
@@ -99,9 +99,9 @@ label .version_1:
                                         jump day_5
                                 "[d4_v1_cba[1]]":
                                     $ menuset_d4.discard("[d4_v1_cba[1]]")
-                                    jump .path_cba
+                                    jump .v1_m1_path_cba
                                 "[d4_v1_cbb[0]]":
-                                    label .path_cbb:
+                                    label .v1_m1_path_cbb:
                                         $ menuset_d4.discard("[d4_v1_cbb[1]]")
                                         diego sad "Ah droga…"
                                         diego "Bem ele deve estar por aí…"
@@ -116,9 +116,9 @@ label .version_1:
                                         jump day_5
                                 "[d4_v1_cbb[1]]":
                                     $ menuset_d4.discard("[d4_v1_cbb[1]]")
-                                    jump .path_cbb
+                                    jump .v1_m1_path_cbb
                                 "[d4_v1_cbc[0]]":
-                                    label .path_cbc:
+                                    label .v1_m1_path_cbc:
                                         $ menuset_d4.discard("[d4_v1_cbc[1]]")
                                         rat_think "Ah! Pera! Ta claro lá fora!"
                                         rat_think "Huh acho que passo por aqui"
@@ -144,13 +144,13 @@ label .version_1:
                                         jump day_5
                                 "[d4_v1_cbc[1]]":
                                     $ menuset_d4.discard("[d4_v1_cbc[1]]")
-                                    jump .path_cbc
+                                    jump .v1_m1_path_cbc
                     "[d4_v1_cb[1]]":
                         $ menuset_d4.discard("[d4_v1_cb[1]]")
-                        jump .path_cb
+                        jump .v1_m1_path_cb
                     "[d4_v1_cc[0]]":
                         $ menuset_d4.discard("[d4_v1_cc[1]]")
-                        label .path_cc:
+                        label .v1_m1_path_cc:
                             rat_think "Hm que fome!"
                             rat_think "Tá muito sujo aqui."
                             show rat standing with rat_stand_right
@@ -167,10 +167,10 @@ label .version_1:
                             jump day_5
                     "[d4_v1_cc[1]]":
                         $ menuset_d4.discard("[d4_v1_cc[1]]")
-                        jump .path_cc
+                        jump .v1_m1_path_cc
         "[d4_v1_c[1]]":
             $ menuset_d4.discard("[d4_v1_c[1]]")
-            jump .path_c
+            jump .v1_m1_path_c
     return
 
 label .version_2:

@@ -1,5 +1,6 @@
 ﻿label start:
     stop music fadeout 2.5
+    jump day_1
     scene bg room with Pixellate(1.0, 5)
     call setup from start_setup
     $ day_color = week_colors[WeekDay.ZERO]

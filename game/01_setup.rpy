@@ -7,6 +7,7 @@ define config.main_menu_music_fadein = 2.0
 define score = 0
 
 python early:
+    from random import randint
     import json
     def parse_choice(lexer):
         print("Start parse")
@@ -72,6 +73,7 @@ label setup:
         yalign 1.5
         xalign 1.0
     transform rat_stand_right:
+        xzoom 1.0
         yalign 2.5
         xalign 1.0
     return
